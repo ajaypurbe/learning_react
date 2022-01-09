@@ -8,6 +8,8 @@ class Header extends Component {
             <div>
             <Logo></Logo>
             <Menubar></Menubar>
+            <p>welcome {this.props.username}</p>
+            <p>you are from {this.props.address}</p>
             <header>this is headerrrrr</header>
             </div>
         )
